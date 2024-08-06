@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #dff7f7;
+  min-height: 100vh;
+  /* margin: 0 */
+}
+.fixed-alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px; /* Adjust based on your layout */
+  z-index: 1050; /* Ensure it's on top of other elements */
+}
+
